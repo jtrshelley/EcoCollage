@@ -1,0 +1,440 @@
+16:24:06 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+make: Nothing to be done for `all'.
+16:24:28 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:25:03 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+make: Nothing to be done for `all'.
+16:25:15 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:25:26 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+make: Nothing to be done for `all'.
+16:26:28 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+make: Nothing to be done for `all'.
+16:26:49 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:27:07 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:27:29 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:28:09 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:28:22 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+make: Nothing to be done for `all'.
+16:28:39 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:28:54 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:29:08 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:29:27 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:29:47 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:30:12 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:30:33 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:30:48 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:31:04 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:31:20 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:31:35 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:31:49 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:32:04 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:32:27 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:32:49 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:33:07 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:33:24 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:33:44 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 
+16:33:58 **** Incremental Build of configuration Debug for project SURF ****
+make all 
+Building file: ../src/Surf.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
+../src/Surf.cpp: In function 'int main(int, char**)':
+../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
+../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
+../src/Surf.cpp:27: warning: unused variable 'firstFrame'
+../src/Surf.cpp:23: warning: unused variable 'capture'
+Finished building: ../src/Surf.cpp
+ 
+Building target: SURF
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
+Finished building target: SURF
+ 

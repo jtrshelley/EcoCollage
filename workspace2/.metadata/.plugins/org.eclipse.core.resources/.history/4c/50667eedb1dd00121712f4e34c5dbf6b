@@ -1,0 +1,21 @@
+/*
+ * Symbol.cpp
+ *
+ *  Created on: Jun 25, 2013
+ *      Author: brianna
+ */
+
+#include "Symbol.h"
+
+namespace surf {
+
+Symbol::Symbol() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Symbol::~Symbol() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace surf */

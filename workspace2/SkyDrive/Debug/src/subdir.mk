@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/Symbol.cpp \
 ../src/main.cpp 
 
 OBJS += \
+./src/Symbol.o \
 ./src/main.o 
 
 CPP_DEPS += \
+./src/Symbol.d \
 ./src/main.d 
 
 

@@ -18,9 +18,116 @@
 
 using namespace cv;
 
+class Symbol {
+public:
+	Symbol(IplImage* img, int x, int y);
+	void print();
+	IplImage* img;
+	int x;
+	int y;
+};
+
+Symbol::Symbol(IplImage* img, int x, int y) {
+	// TODO Auto-generated constructor stub
+	this->x = x;
+	this->y = y;
+	this->img = img;
+}
+
+std::vector<Symbol> symbolList;
+
+IplImage * GetThresholdedImage(IplImage * img)
+{
+	//Convert the image into an HSV image
+	IplImage * imgHSV = cvCreateImage(cvGetSize(img), 8, 3);
+	cvCvtColor(img, imgHSV, CV_BGR2HSV);
+
+	//New image that will hold the thresholded image
+	IplImage * imgThreshed = cvCreateImage(cvGetSize(img), 8, 1);
+
+	//	cvInRangeS(imgHSV, cvScalar(40, 100, 100), cvScalar(80, 255, 255), imgThreshed);
+	cvInRangeS(imgHSV, cvScalar(100, 150, 100), cvScalar(140, 255, 255), imgThreshed);
+
+	//Release the temp HSV image and return this thresholded image
+	cvReleaseImage(&imgHSV);
+	return imgThreshed;
+}
+
+IplImage * DetectAndDrawQuads(IplImage * img, IplImage * original)
+{
+	CvSeq * contours;
+	CvSeq * result;
+	CvMemStorage * storage = cvCreateMemStorage(0);
+	IplImage * ret = cvCreateImage(cvGetSize(img), 8, 3);
+	IplImage * temp = cvCloneImage(img);
+
+	//cvCvtColor(img, temp, CV_HSV2GRAY);
+	int c = cvWaitKey(100);
+	if(c == 32){
+		symbolList.clear();
+		printf("spacebar pressed");
+		int count = 0;
+		cvFindContours(temp, storage, &contours, sizeof(CvContour), CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE, cvPoint(0,0));
+		while(contours)
+		{
+
+			result = cvApproxPoly(contours, sizeof(CvContour), storage, CV_POLY_APPROX_DP, cvContourPerimeter(contours) * 0.02, 0);
+			if(result->total==4 && fabs(cvContourArea(result, CV_WHOLE_SEQ)) > 20)
+			{
+				count++;
+				CvPoint * pt[4];
+				for(int i=0;i < 4; i++)
+					pt[i] = (CvPoint * )cvGetSeqElem(result, i);
+
+				cvLine(ret, * pt[0], * pt[1], cvScalar(255));
+				cvLine(ret, * pt[1], * pt[2], cvScalar(255));
+				cvLine(ret, * pt[2], * pt[3], cvScalar(255));
+				cvLine(ret, * pt[3], * pt[0], cvScalar(255));
+				int x = 0;
+				if (pt[2]->x< pt[0]->x)
+				{
+					x = pt[2]->x;
+				}else{
+					x = pt[0]->x;
+				}
+				int y = pt[0]->y;
+
+				int w = abs(pt[2]->x - pt[0]->x);
+				int h = abs(pt[2]->y - pt[0]->y);
+				cvResetImageROI(img);
+				char *windowName = new char[20];
+				sprintf(windowName, "Detected Object %d", count);
+				printf("%s", windowName);
+				cvDestroyWindow(windowName);
+				printf("x:  %d, y:  %d, w:  %d, h:  %d ", x, y, w, h);
+
+				cvSetImageROI(original, cvRect(x-2,y-2, w+4, h+4));
+				IplImage * detectedObject = cvCreateImage(cvGetSize(original),original->depth, original->nChannels);
+				cvCopy(original, detectedObject, NULL);
+				symbolList.push_back(Symbol(detectedObject, x, y));
+				cvNamedWindow(windowName, CV_WINDOW_AUTOSIZE);
+				cvShowImage(windowName, detectedObject);
+
+				cvReleaseImage(&detectedObject);
+			}
+			contours = contours -> h_next;
+		}
+		for(std::vector<Symbol>::iterator it = symbolList.begin() ; it != symbolList.end(); ++it){
+			printf("Image found at x : %d y : %d\n", it->x, it->y);
+		}
+	}
+
+	cvReleaseImage(&temp);
+	cvReleaseMemStorage(&storage);
+
+	return ret;
+}
+
 int main()
 {
-	Mat object = imread( "photo1.jpg", CV_LOAD_IMAGE_GRAYSCALE );
+
+
+	Mat object = imread( "Photo24bw.jpg", CV_LOAD_IMAGE_GRAYSCALE );
 
 	if( !object.data )
 	{
@@ -41,7 +148,7 @@ int main()
 	Mat des_object;
 
 	extractor.compute( object, kp_object, des_object );
-	printf("Number of descriptors found for initial object: %d", kp_object.size());
+	printf("Number of descriptors found for initial object: %d", (int)kp_object.size());
 
 	FlannBasedMatcher matcher;
 
@@ -68,6 +175,8 @@ int main()
 	{
 		Mat frame;
 		cap >> frame;
+		IplImage * imgThresh = GetThresholdedImage(cvCloneImage(&(IplImage)frame));
+		IplImage * contourDrawn = DetectAndDrawQuads(imgThresh, cvCloneImage(&(IplImage)frame));
 
 		//first five frames are preserved so that we can use them once
 		//we get past them
@@ -108,7 +217,7 @@ int main()
 					if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
 					{
 						good_matches.push_back(matches[j][0]);
-						printf("Outer loop is on: %d, Number of matches is: %d\n", i, good_matches.size());
+						printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
 					}
 				}
 			}
@@ -151,9 +260,34 @@ int main()
 		frozenframe[2] = frozenframe[3].clone();
 		frozenframe[3] = frozenframe[4].clone();
 		frozenframe[4] = frame.clone();
-		//If 'ESC' is pressed, break the loop
+
+		CvMoments *moments = (CvMoments*)malloc(sizeof(CvMoments));
+		cvMoments(imgThresh, moments, 1);
+
+		//If 'ESC' is pressed, break the loop, if c is pressed, change states
+		//if 'd' is pressed, print the coordinates to the screen
+		int x = cvWaitKey(10);
+		if((char)c ==100)
+		{
+
+			// The actual moment values
+			double moment10 = cvGetSpatialMoment(moments, 1, 0);
+			double moment01 = cvGetSpatialMoment(moments, 0, 1);
+			double area = cvGetCentralMoment(moments, 0, 0);
+
+			// Holding the last and current ball positions
+			static int posX = 0;
+			static int posY = 0;
+
+			posX = moment10/area;
+			posY = moment01/area;
+			// Print it out for debugging purposes
+			printf("position (%d,%d)\n", posX, posY);
+
+		}
 		if ((char) c==99){
 			state++;
+			printf("c pressed. state : %d \n",state);
 		}
 		if((char)c==27 ) break;
 	}

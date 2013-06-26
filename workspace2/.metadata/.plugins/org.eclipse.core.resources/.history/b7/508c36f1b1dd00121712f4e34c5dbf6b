@@ -1,0 +1,20 @@
+/*
+ * Symbol.h
+ *
+ *  Created on: Jun 25, 2013
+ *      Author: brianna
+ */
+
+#ifndef SYMBOL_H_
+#define SYMBOL_H_
+
+namespace surf {
+
+class Symbol {
+public:
+	Symbol();
+	virtual ~Symbol();
+};
+
+} /* namespace surf */
+#endif /* SYMBOL_H_ */

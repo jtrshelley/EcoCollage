@@ -1,440 +1,175 @@
-16:24:06 **** Incremental Build of configuration Debug for project SURF ****
+11:46:40 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:163: warning: taking address of temporary
+../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:164: warning: unused variable 'contourDrawn'
+../src/main.cpp:254: warning: unused variable 'x'
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:46:53 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 make: Nothing to be done for `all'.
-16:24:28 **** Incremental Build of configuration Debug for project SURF ****
+11:47:20 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
-Building file: ../src/Surf.cpp
+Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:163: warning: taking address of temporary
+../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:164: warning: unused variable 'contourDrawn'
+../src/main.cpp:254: warning: unused variable 'x'
+Finished building: ../src/main.cpp
  
-Building target: SURF
+Building target: SkyDrive
 Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
  
-16:25:03 **** Incremental Build of configuration Debug for project SURF ****
+11:49:25 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:163: warning: taking address of temporary
+../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:164: warning: unused variable 'contourDrawn'
+../src/main.cpp:254: warning: unused variable 'x'
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+12:01:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/Symbol.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
+Finished building: ../src/Symbol.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+12:06:05 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/Symbol.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
+../src/Symbol.cpp:26: error: ISO C++ forbids declaration of 'print' with no type
+../src/Symbol.cpp:26: error: prototype for 'int surf::Symbol::print()' does not match any in class 'surf::Symbol'
+../src/Symbol.h:17: error: candidate is: void surf::Symbol::print()
+../src/Symbol.cpp:26: error: 'int surf::Symbol::print()' cannot be overloaded
+../src/Symbol.h:17: error: with 'void surf::Symbol::print()'
+make: *** [src/Symbol.o] Error 1
+12:08:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/Symbol.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
+Finished building: ../src/Symbol.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:171: warning: taking address of temporary
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:172: warning: unused variable 'contourDrawn'
+../src/main.cpp:262: warning: unused variable 'x'
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+12:09:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:171: warning: taking address of temporary
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:172: warning: unused variable 'contourDrawn'
+../src/main.cpp:262: warning: unused variable 'x'
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+12:11:03 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 make: Nothing to be done for `all'.
-16:25:15 **** Incremental Build of configuration Debug for project SURF ****
+12:15:53 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
-Building file: ../src/Surf.cpp
+Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:171: warning: taking address of temporary
+../src/main.cpp:172: warning: taking address of temporary
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:172: warning: unused variable 'contourDrawn'
+../src/main.cpp:262: warning: unused variable 'x'
+Finished building: ../src/main.cpp
  
-Building target: SURF
+Building target: SkyDrive
 Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
  
-16:25:26 **** Incremental Build of configuration Debug for project SURF ****
+12:27:22 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
-make: Nothing to be done for `all'.
-16:26:28 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-make: Nothing to be done for `all'.
-16:26:49 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
+Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'IplImage* DetectAndDrawQuads(IplImage*, IplImage*)':
+../src/main.cpp:88: warning: statement has no effect
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:175: warning: taking address of temporary
+../src/main.cpp:176: warning: taking address of temporary
+../src/main.cpp:226: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:176: warning: unused variable 'contourDrawn'
+../src/main.cpp:266: warning: unused variable 'x'
+Finished building: ../src/main.cpp
  
-Building target: SURF
+Building target: SkyDrive
 Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
  
-16:27:07 **** Incremental Build of configuration Debug for project SURF ****
+12:30:13 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
-Building file: ../src/Surf.cpp
+Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:178: warning: taking address of temporary
+../src/main.cpp:179: warning: taking address of temporary
+../src/main.cpp:229: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:179: warning: unused variable 'contourDrawn'
+../src/main.cpp:269: warning: unused variable 'x'
+Finished building: ../src/main.cpp
  
-Building target: SURF
+Building target: SkyDrive
 Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:27:29 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:28:09 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:28:22 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-make: Nothing to be done for `all'.
-16:28:39 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:28:54 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:29:08 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:29:27 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:29:47 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:30:12 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:30:33 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:30:48 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:31:04 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:31:20 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:31:35 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:31:49 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:32:04 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:32:27 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:32:49 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:33:07 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:33:24 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:33:44 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-16:33:58 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
  

@@ -1,21 +1,21 @@
-16:04:20 **** Incremental Build of configuration Debug for project SkyDrive ****
+12:30:13 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:44: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
-../src/main.cpp:44: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
-../src/main.cpp:111: warning: format '%d' expects type 'int', but argument 3 has type 'size_t'
-../src/main.cpp:111: warning: format '%d' expects type 'int', but argument 3 has type 'size_t'
-../src/main.cpp:120: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:178: warning: taking address of temporary
+../src/main.cpp:179: warning: taking address of temporary
+../src/main.cpp:229: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:179: warning: unused variable 'contourDrawn'
+../src/main.cpp:269: warning: unused variable 'x'
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
 Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
 
-16:04:22 Build Finished (took 2s.126ms)
+12:30:17 Build Finished (took 3s.760ms)
 

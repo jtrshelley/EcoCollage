@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SkyDrive&apos; to &apos;ShapeMatch&apos;" description="Rename resource &apos;SkyDrive&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SkyDrive" name="ShapeMatch" stamp="1372256144371" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ShapeMatch&apos; to &apos;SkyDrive&apos;" description="Rename resource &apos;ShapeMatch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ShapeMatch" name="SkyDrive" stamp="1372256166017" updateReferences="true"/>
+</session>

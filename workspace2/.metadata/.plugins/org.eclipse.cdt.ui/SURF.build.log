@@ -1,6 +1,6 @@
-11:45:51 **** Incremental Build of configuration Debug for project SURF ****
+09:59:57 **** Incremental Build of configuration Debug for project SURF ****
 make all 
 make: Nothing to be done for `all'.
 
-11:45:52 Build Finished (took 183ms)
+09:59:57 Build Finished (took 112ms)
 

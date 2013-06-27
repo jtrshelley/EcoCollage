@@ -1,14 +1,13 @@
-12:30:13 **** Incremental Build of configuration Debug for project SkyDrive ****
+10:26:26 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:191: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:178: warning: taking address of temporary
-../src/main.cpp:179: warning: taking address of temporary
-../src/main.cpp:229: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:179: warning: unused variable 'contourDrawn'
-../src/main.cpp:269: warning: unused variable 'x'
+../src/main.cpp:272: warning: taking address of temporary
+../src/main.cpp:273: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -17,5 +16,5 @@ g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -l
 Finished building target: SkyDrive
  
 
-12:30:17 Build Finished (took 3s.760ms)
+10:26:27 Build Finished (took 1s.463ms)
 

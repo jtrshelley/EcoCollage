@@ -1,81 +1,4 @@
-11:46:40 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:163: warning: taking address of temporary
-../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:164: warning: unused variable 'contourDrawn'
-../src/main.cpp:254: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-11:46:53 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-11:47:20 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:163: warning: taking address of temporary
-../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:164: warning: unused variable 'contourDrawn'
-../src/main.cpp:254: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-11:49:25 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:163: warning: taking address of temporary
-../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:164: warning: unused variable 'contourDrawn'
-../src/main.cpp:254: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-12:01:58 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/Symbol.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
-Finished building: ../src/Symbol.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-12:06:05 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/Symbol.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
-../src/Symbol.cpp:26: error: ISO C++ forbids declaration of 'print' with no type
-../src/Symbol.cpp:26: error: prototype for 'int surf::Symbol::print()' does not match any in class 'surf::Symbol'
-../src/Symbol.h:17: error: candidate is: void surf::Symbol::print()
-../src/Symbol.cpp:26: error: 'int surf::Symbol::print()' cannot be overloaded
-../src/Symbol.h:17: error: with 'void surf::Symbol::print()'
-make: *** [src/Symbol.o] Error 1
-12:08:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:09:59 **** Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/Symbol.cpp
 Invoking: Cross G++ Compiler
@@ -85,11 +8,11 @@ Finished building: ../src/Symbol.cpp
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:171: warning: taking address of temporary
-../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:172: warning: unused variable 'contourDrawn'
-../src/main.cpp:262: warning: unused variable 'x'
+../src/main.cpp:277: warning: taking address of temporary
+../src/main.cpp:278: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -97,87 +20,22 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-12:09:45 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:171: warning: taking address of temporary
-../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:172: warning: unused variable 'contourDrawn'
-../src/main.cpp:262: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-12:11:03 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:10:14 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 make: Nothing to be done for `all'.
-12:15:53 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:171: warning: taking address of temporary
-../src/main.cpp:172: warning: taking address of temporary
-../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:172: warning: unused variable 'contourDrawn'
-../src/main.cpp:262: warning: unused variable 'x'
-Finished building: ../src/main.cpp
+09:11:02 **** Clean-only build of configuration Debug for project EcoCollage ****
+make clean 
+rm -rf  ./src/EcoCollage.o  ./src/EcoCollage.d  EcoCollage
  
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
+09:11:02 **** Clean-only build of configuration Debug for project SURF ****
+make clean 
+rm -rf  ./src/Surf.o  ./src/Surf.d  SURF
  
-12:27:22 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'IplImage* DetectAndDrawQuads(IplImage*, IplImage*)':
-../src/main.cpp:88: warning: statement has no effect
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:175: warning: taking address of temporary
-../src/main.cpp:176: warning: taking address of temporary
-../src/main.cpp:226: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:176: warning: unused variable 'contourDrawn'
-../src/main.cpp:266: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-12:30:13 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:178: warning: taking address of temporary
-../src/main.cpp:179: warning: taking address of temporary
-../src/main.cpp:229: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:179: warning: unused variable 'contourDrawn'
-../src/main.cpp:269: warning: unused variable 'x'
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-09:21:00 **** Clean-only build of configuration Debug for project SkyDrive ****
+09:11:02 **** Clean-only build of configuration Debug for project SkyDrive ****
 make clean 
 rm -rf  ./src/Symbol.o ./src/main.o  ./src/Symbol.d ./src/main.d  SkyDrive
  
-09:21:01 **** Build of configuration Debug for project SkyDrive ****
+09:14:14 **** Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/Symbol.cpp
 Invoking: Cross G++ Compiler
@@ -187,12 +45,11 @@ Finished building: ../src/Symbol.cpp
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:178: warning: taking address of temporary
-../src/main.cpp:179: warning: taking address of temporary
-../src/main.cpp:229: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:179: warning: unused variable 'contourDrawn'
-../src/main.cpp:269: warning: unused variable 'x'
+../src/main.cpp:277: warning: taking address of temporary
+../src/main.cpp:278: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -200,22 +57,19 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:41:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:15:12 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:22:25 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:191: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:197: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:265: warning: taking address of temporary
-../src/main.cpp:266: warning: taking address of temporary
-../src/main.cpp:266: warning: unused variable 'contourDrawn'
-../src/main.cpp:257: warning: unused variable 'framecount'
-../src/main.cpp:258: warning: unused variable 'frozenframe'
-../src/main.cpp:260: warning: unused variable 'state'
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:211: warning: control reaches end of non-void function
+../src/main.cpp:278: warning: taking address of temporary
+../src/main.cpp:279: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -223,29 +77,248 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:47:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:23:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:198: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:279: warning: taking address of temporary
+../src/main.cpp:280: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:24:56 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:202: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:283: warning: taking address of temporary
+../src/main.cpp:284: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:25:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:203: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:284: warning: taking address of temporary
+../src/main.cpp:285: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:26:59 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:201: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:282: warning: taking address of temporary
+../src/main.cpp:283: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:27:29 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:30:47 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:203: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:284: warning: taking address of temporary
+../src/main.cpp:285: warning: taking address of temporary
+../src/main.cpp:290: error: cannot convert '__gnu_cxx::__normal_iterator<IplImage**, std::vector<IplImage*, std::allocator<IplImage*> > >' to 'const CvArr*' for argument '2' to 'void cvShowImage(const char*, const CvArr*)'
+../src/main.cpp:291: error: request for member 'imageSize' in '* it. __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator-> [with _Iterator = IplImage**, _Container = std::vector<IplImage*, std::allocator<IplImage*> >]()', which is of non-class type 'IplImage*'
+../src/main.cpp:292: error: request for member 'img' in '* it. __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator-> [with _Iterator = IplImage**, _Container = std::vector<IplImage*, std::allocator<IplImage*> >]()', which is of non-class type 'IplImage*'
+make: *** [src/main.o] Error 1
+09:34:03 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:203: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:284: warning: taking address of temporary
+../src/main.cpp:285: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:44:53 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:26: error: return type specification for constructor invalid
+../src/main.cpp:38: error: return type specification for constructor invalid
+../src/main.cpp: In copy constructor 'Symbol::Symbol(Symbol&)':
+../src/main.cpp:42: error: returning a value from a constructor
+../src/main.cpp: In function 'void DetectAndDrawQuads(IplImage*, IplImage*)':
+../src/main.cpp:112: error: no matching function for call to 'Symbol::Symbol(Symbol)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:212: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:293: warning: taking address of temporary
+../src/main.cpp:294: warning: taking address of temporary
+/usr/include/c++/4.2.1/ext/new_allocator.h: In member function 'void __gnu_cxx::new_allocator<_Tp>::construct(_Tp*, const _Tp&) [with _Tp = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:604:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/ext/new_allocator.h:107: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
+/usr/include/c++/4.2.1/bits/vector.tcc: In member function 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/bits/vector.tcc:252: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+/usr/include/c++/4.2.1/bits/stl_construct.h: In function 'void std::_Construct(_T1*, const _T2&) [with _T1 = Symbol, _T2 = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:87:   instantiated from '_ForwardIterator std::__uninitialized_copy_aux(_InputIterator, _InputIterator, _ForwardIterator, std::__false_type) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:114:   instantiated from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:254:   instantiated from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*, _Tp = Symbol]'
+/usr/include/c++/4.2.1/bits/vector.tcc:275:   instantiated from 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/bits/stl_construct.h:81: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
+make: *** [src/main.o] Error 1
+09:45:35 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
 ../src/main.cpp: In function 'void DetectAndDrawQuads(IplImage*, IplImage*)':
-../src/main.cpp:119: error: return-statement with a value, in function returning 'void'
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:188: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:111: error: no matching function for call to 'Symbol::Symbol(Symbol)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:211: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:262: warning: taking address of temporary
-../src/main.cpp:263: warning: taking address of temporary
+../src/main.cpp:292: warning: taking address of temporary
+../src/main.cpp:293: warning: taking address of temporary
+/usr/include/c++/4.2.1/ext/new_allocator.h: In member function 'void __gnu_cxx::new_allocator<_Tp>::construct(_Tp*, const _Tp&) [with _Tp = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:604:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:111:   instantiated from here
+/usr/include/c++/4.2.1/ext/new_allocator.h:107: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
+/usr/include/c++/4.2.1/bits/vector.tcc: In member function 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:111:   instantiated from here
+/usr/include/c++/4.2.1/bits/vector.tcc:252: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+/usr/include/c++/4.2.1/bits/stl_construct.h: In function 'void std::_Construct(_T1*, const _T2&) [with _T1 = Symbol, _T2 = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:87:   instantiated from '_ForwardIterator std::__uninitialized_copy_aux(_InputIterator, _InputIterator, _ForwardIterator, std::__false_type) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:114:   instantiated from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:254:   instantiated from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*, _Tp = Symbol]'
+/usr/include/c++/4.2.1/bits/vector.tcc:275:   instantiated from 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:111:   instantiated from here
+/usr/include/c++/4.2.1/bits/stl_construct.h:81: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
 make: *** [src/main.o] Error 1
-09:50:47 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:48:58 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:186: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'void DetectAndDrawQuads(IplImage*, IplImage*)':
+../src/main.cpp:112: error: no matching function for call to 'Symbol::Symbol(Symbol)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:212: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:266: warning: taking address of temporary
-../src/main.cpp:267: warning: taking address of temporary
+../src/main.cpp:293: warning: taking address of temporary
+../src/main.cpp:294: warning: taking address of temporary
+/usr/include/c++/4.2.1/ext/new_allocator.h: In member function 'void __gnu_cxx::new_allocator<_Tp>::construct(_Tp*, const _Tp&) [with _Tp = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:604:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/ext/new_allocator.h:107: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
+/usr/include/c++/4.2.1/bits/vector.tcc: In member function 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]':
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/bits/vector.tcc:252: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+/usr/include/c++/4.2.1/bits/stl_construct.h: In function 'void std::_Construct(_T1*, const _T2&) [with _T1 = Symbol, _T2 = Symbol]':
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:87:   instantiated from '_ForwardIterator std::__uninitialized_copy_aux(_InputIterator, _InputIterator, _ForwardIterator, std::__false_type) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:114:   instantiated from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*]'
+/usr/include/c++/4.2.1/bits/stl_uninitialized.h:254:   instantiated from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>) [with _InputIterator = Symbol*, _ForwardIterator = Symbol*, _Tp = Symbol]'
+/usr/include/c++/4.2.1/bits/vector.tcc:275:   instantiated from 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+/usr/include/c++/4.2.1/bits/stl_vector.h:608:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(const _Tp&) [with _Tp = Symbol, _Alloc = std::allocator<Symbol>]'
+../src/main.cpp:112:   instantiated from here
+/usr/include/c++/4.2.1/bits/stl_construct.h:81: error: no matching function for call to 'Symbol::Symbol(const Symbol&)'
+../src/main.cpp:38: note: candidates are: Symbol::Symbol(Symbol&)
+../src/main.cpp:25: note:                 Symbol::Symbol()
+../src/main.cpp:32: note:                 Symbol::Symbol(IplImage*, int, int)
+make: *** [src/main.o] Error 1
+09:50:33 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In copy constructor 'Symbol::Symbol(const Symbol&)':
+../src/main.cpp:39: error: assignment of data-member 'Symbol::x' in read-only structure
+../src/main.cpp:40: error: assignment of data-member 'Symbol::y' in read-only structure
+../src/main.cpp:41: error: assignment of data-member 'Symbol::img' in read-only structure
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:212: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:293: warning: taking address of temporary
+../src/main.cpp:294: warning: taking address of temporary
+make: *** [src/main.o] Error 1
+09:52:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:212: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:293: warning: taking address of temporary
+../src/main.cpp:294: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -253,16 +326,19 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:54:30 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:53:22 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:55:08 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:185: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:265: warning: taking address of temporary
-../src/main.cpp:266: warning: taking address of temporary
+../src/main.cpp:295: warning: taking address of temporary
+../src/main.cpp:296: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -270,16 +346,16 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:57:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+09:56:22 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:185: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:214: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:265: warning: taking address of temporary
-../src/main.cpp:266: warning: taking address of temporary
+../src/main.cpp:295: warning: taking address of temporary
+../src/main.cpp:296: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -287,17 +363,16 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:58:03 **** Incremental Build of configuration Debug for project SkyDrive ****
+10:02:41 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:185: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:221: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:265: warning: taking address of temporary
-../src/main.cpp:266: warning: taking address of temporary
-../src/main.cpp:268: warning: unused variable 'i'
+../src/main.cpp:302: warning: taking address of temporary
+../src/main.cpp:303: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -305,16 +380,16 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:59:30 **** Incremental Build of configuration Debug for project SkyDrive ****
+10:05:20 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:185: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:221: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:265: warning: taking address of temporary
-../src/main.cpp:266: warning: taking address of temporary
+../src/main.cpp:302: warning: taking address of temporary
+../src/main.cpp:303: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
@@ -322,7 +397,121 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
  
-09:59:55 **** Incremental Build of configuration Debug for project EcoCollage ****
+10:06:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:14:00 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:221: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:302: warning: taking address of temporary
+../src/main.cpp:303: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:15:13 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:20:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:21:24 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:21:37 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:24:10 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:24:25 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:26:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:302: warning: taking address of temporary
+../src/main.cpp:303: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:27:35 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:218: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:300: warning: taking address of temporary
+../src/main.cpp:301: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:30:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:218: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:300: warning: taking address of temporary
+../src/main.cpp:301: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:33:41 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:202: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:218: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:300: warning: taking address of temporary
+../src/main.cpp:301: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:36:35 **** Build of configuration Debug for project EcoCollage ****
 make all 
 Building file: ../src/EcoCollage.cpp
 Invoking: Cross G++ Compiler
@@ -334,293 +523,7 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
 Finished building target: EcoCollage
  
-09:59:57 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-make: Nothing to be done for `all'.
-09:59:58 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-10:00:18 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-10:02:15 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, cv::SurfFeatureDetector, cv::SurfDescriptorExtractor, int)':
-../src/main.cpp:187: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:267: warning: taking address of temporary
-../src/main.cpp:268: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:10:50 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:190: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:209: error: 'descriptor' was not declared in this scope
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:273: warning: taking address of temporary
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:279: error: cannot convert 'cv::SurfFeatureDetector' to 'int' for argument '3' to 'bool match(cv::Mat, IplImage*, int)'
-make: *** [src/main.o] Error 1
-10:11:25 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:190: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp:209: error: cannot convert 'cv::SurfFeatureDetector*' to 'CvMemStorage**' for argument '1' to 'void cvReleaseMemStorage(CvMemStorage**)'
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:273: warning: taking address of temporary
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:279: error: cannot convert 'cv::SurfFeatureDetector' to 'int' for argument '3' to 'bool match(cv::Mat, IplImage*, int)'
-make: *** [src/main.o] Error 1
-10:12:25 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:190: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:271: warning: taking address of temporary
-../src/main.cpp:272: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:14:22 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:190: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:271: warning: taking address of temporary
-../src/main.cpp:272: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:16:02 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:191: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:272: warning: taking address of temporary
-../src/main.cpp:273: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:16:37 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-10:17:32 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:193: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:275: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:19:15 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:193: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:275: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-10:21:34 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:172: error: cannot convert 'IplImage' to 'CvArr*' for argument '2' to 'void cvCvtColor(const CvArr*, CvArr*, int)'
-../src/main.cpp:194: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:275: warning: taking address of temporary
-../src/main.cpp:276: warning: taking address of temporary
-make: *** [src/main.o] Error 1
-10:26:26 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:191: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:272: warning: taking address of temporary
-../src/main.cpp:273: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:37:26 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/Symbol.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Symbol.d" -MT"src/Symbol.d" -o "src/Symbol.o" "../src/Symbol.cpp"
-Finished building: ../src/Symbol.cpp
- 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:192: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:273: warning: taking address of temporary
-../src/main.cpp:274: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:38:23 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-08:43:06 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:192: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:273: warning: taking address of temporary
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:279: warning: unknown conversion type character '@' in format
-../src/main.cpp:279: warning: too many arguments for format
-../src/main.cpp:279: warning: unknown conversion type character '@' in format
-../src/main.cpp:279: warning: too many arguments for format
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:45:43 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:192: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:273: warning: taking address of temporary
-../src/main.cpp:274: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:46:55 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:193: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:275: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:49:25 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:167: error: no matching function for call to 'CvSize::CvSize(int&, int&)'
-/usr/local/include/opencv2/core/types_c.h:1136: note: candidates are: CvSize::CvSize()
-/usr/local/include/opencv2/core/types_c.h:1136: note:                 CvSize::CvSize(const CvSize&)
-../src/main.cpp:193: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:275: warning: taking address of temporary
-make: *** [src/main.o] Error 1
-08:50:18 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:193: warning: comparison between signed and unsigned integer expressions
-../src/main.cpp: In function 'int main()':
-../src/main.cpp:274: warning: taking address of temporary
-../src/main.cpp:275: warning: taking address of temporary
-Finished building: ../src/main.cpp
- 
-Building target: SkyDrive
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
-Finished building target: SkyDrive
- 
-08:51:41 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-08:52:10 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-08:54:22 **** Incremental Build of configuration Debug for project EcoCollage ****
+10:37:03 **** Incremental Build of configuration Debug for project EcoCollage ****
 make all 
 Building file: ../src/EcoCollage.cpp
 Invoking: Cross G++ Compiler
@@ -632,46 +535,142 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
 Finished building target: EcoCollage
  
-08:54:24 **** Incremental Build of configuration Debug for project SURF ****
-make all 
-Building file: ../src/Surf.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Surf.d" -MT"src/Surf.d" -o "src/Surf.o" "../src/Surf.cpp"
-../src/Surf.cpp: In function 'int main(int, char**)':
-../src/Surf.cpp:22: warning: missing braces around initializer for 'CvScalar'
-../src/Surf.cpp:22: warning: missing braces around initializer for 'double [4]'
-../src/Surf.cpp:27: warning: unused variable 'firstFrame'
-../src/Surf.cpp:23: warning: unused variable 'capture'
-Finished building: ../src/Surf.cpp
- 
-Building target: SURF
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "SURF"  ./src/Surf.o   -lopencv_core -lopencv_nonfree -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_flann -lopencv_legacy -lopencv_contrib
-Finished building target: SURF
- 
-08:54:26 **** Incremental Build of configuration Debug for project SkyDrive ****
+10:42:24 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 make: Nothing to be done for `all'.
-08:55:06 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-08:55:12 **** Incremental Build of configuration Debug for project SkyDrive ****
-make all 
-make: Nothing to be done for `all'.
-09:02:19 **** Incremental Build of configuration Debug for project SkyDrive ****
+10:43:24 **** Incremental Build of configuration Debug for project SkyDrive ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
 g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
 ../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
-../src/main.cpp:195: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: comparison between signed and unsigned integer expressions
 ../src/main.cpp: In function 'int main()':
-../src/main.cpp:276: warning: taking address of temporary
-../src/main.cpp:277: warning: taking address of temporary
+../src/main.cpp:303: warning: taking address of temporary
+../src/main.cpp:304: warning: taking address of temporary
 Finished building: ../src/main.cpp
  
 Building target: SkyDrive
 Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
 Finished building target: SkyDrive
+ 
+10:48:34 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:50:00 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:50:12 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:50:37 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:52:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:52:44 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:52:51 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:53:00 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:53:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:54:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:55:00 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+make: Nothing to be done for `all'.
+10:55:56 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+Building file: ../src/EcoCollage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EcoCollage.d" -MT"src/EcoCollage.d" -o "src/EcoCollage.o" "../src/EcoCollage.cpp"
+Finished building: ../src/EcoCollage.cpp
+ 
+Building target: EcoCollage
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
+Finished building target: EcoCollage
  

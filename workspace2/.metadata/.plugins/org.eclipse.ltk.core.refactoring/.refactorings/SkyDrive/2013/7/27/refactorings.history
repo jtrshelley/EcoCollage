@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;SkyDrive&apos;" description="Move 1 resources to &apos;SkyDrive&apos;" destination="/SkyDrive" element1="/SURF/Photo14bw.jpg" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1372693962782" updateReferences="true"/>
+</session>

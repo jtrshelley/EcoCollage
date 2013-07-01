@@ -80,7 +80,7 @@ IplImage * DetectAndDrawQuads(IplImage * img)
 		IplImage * imgThreshed = cvCreateImage(cvGetSize(img), 8, 1);
 
 		//	cvInRangeS(imgHSV, cvScalar(40, 100, 100), cvScalar(80, 255, 255), imgThreshed);
-		cvInRangeS(imgHSV, cvScalar(100, 150, 100), cvScalar(140, 255, 255), imgThreshed);
+		cvInRangeS(imgHSV, cvScalar(0, 0, 170), cvScalar(360, 40, 255), imgThreshed);
 
 		//Release the temp HSV image and return this thresholded image
 		cvReleaseImage(&imgHSV);

@@ -1,4 +1,4 @@
-08:54:22 **** Incremental Build of configuration Debug for project EcoCollage ****
+10:55:56 **** Incremental Build of configuration Debug for project EcoCollage ****
 make all 
 Building file: ../src/EcoCollage.cpp
 Invoking: Cross G++ Compiler
@@ -11,5 +11,5 @@ g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopenc
 Finished building target: EcoCollage
  
 
-08:54:23 Build Finished (took 1s.196ms)
+10:55:59 Build Finished (took 2s.414ms)
 

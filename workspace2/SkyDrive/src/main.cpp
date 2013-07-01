@@ -22,6 +22,8 @@ class Symbol {
 public:
 	Symbol(IplImage* img, int x, int y);
 	void print();
+	Symbol();
+	Symbol(const Symbol& other);
 	IplImage* img;
 	int x;
 	int y;
@@ -33,7 +35,15 @@ Symbol::Symbol(IplImage* img, int x, int y) {
 	this->img = img;
 }
 
+Symbol::Symbol(const Symbol &other){
+	this->x = other.x;
+	this->y = other.y;
+	this->img = cvCreateImage(cvGetSize(other.img), other.img->depth, other.img->nChannels);
+	cvCopy(other.img,this->img, NULL);
+}
+
 std::vector<Symbol> symbolList;
+std::vector<IplImage*> imageList;
 
 IplImage * GetThresholdedImage(IplImage * img)
 {
@@ -45,7 +55,10 @@ IplImage * GetThresholdedImage(IplImage * img)
 	IplImage * imgThreshed = cvCreateImage(cvGetSize(img), 8, 1);
 
 	//	cvInRangeS(imgHSV, cvScalar(40, 100, 100), cvScalar(80, 255, 255), imgThreshed);
-	cvInRangeS(imgHSV, cvScalar(100, 150, 100), cvScalar(140, 255, 255), imgThreshed);
+	//blue
+	//cvInRangeS(imgHSV, cvScalar(100, 150, 100), cvScalar(140, 255, 255), imgThreshed);
+	//vaguely wood colored
+	cvInRangeS(imgHSV, cvScalar(0, 0, 200), cvScalar(360, 60, 255), imgThreshed);
 
 	//Release the temp HSV image and return this thresholded image
 	cvReleaseImage(&imgHSV);
@@ -100,6 +113,7 @@ void DetectAndDrawQuads(IplImage * img, IplImage * original)
 			IplImage * detectedObject = cvCreateImage(cvGetSize(original),original->depth, original->nChannels);
 			cvCopy(original, detectedObject, NULL);
 			symbolList.push_back(Symbol(detectedObject, x, y));
+			imageList.push_back(detectedObject);
 			cvNamedWindow(windowName, CV_WINDOW_AUTOSIZE);
 			cvShowImage(windowName, detectedObject);
 
@@ -118,8 +132,10 @@ void DetectAndDrawQuads(IplImage * img, IplImage * original)
 
 bool match(Mat object, IplImage* segmentedCapture, int i)
 {
-	printf("Size check of segmented capture: height: %d, width: %d", segmentedCapture->height, segmentedCapture->width);
+	printf("Size check of segmented capture: height: %d, width: %d\n", segmentedCapture->height, segmentedCapture->width);
 	printf("attempting to read object now\n");
+
+
 
 	bool matchFound = false;
 	if( !object.data )
@@ -140,12 +156,12 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	SurfDescriptorExtractor extractor;
 
 	extractor.compute( object, kp_object, des_object );
-	printf("Number of descriptors found for initial object: %d", (int)kp_object.size());
+	printf("Number of descriptors found for initial object: %d\n", (int)kp_object.size());
 
 	FlannBasedMatcher matcher;
 
 	char *windowName = new char[20];
-	sprintf(windowName, "Matches %d", i);
+	sprintf(windowName, "Match %d", i);
 	destroyWindow(windowName);
 	namedWindow(windowName);
 
@@ -164,26 +180,36 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	std::vector<Point2f> scene_corners(4);
 	Mat H;
 	Mat image;
-	IplImage *image2 = cvCreateImage(cvSize(segmentedCapture->width, segmentedCapture->height), IPL_DEPTH_8U,1);
 
+
+	cvResetImageROI(segmentedCapture);
+	printf("creating image to store it in");
+	IplImage *image2 = cvCreateImage(cvSize(segmentedCapture->width, segmentedCapture->height), IPL_DEPTH_8U,1);
+	printf("about to convert to gray\n");
 	cvCvtColor(segmentedCapture, image2, CV_BGR2GRAY);
 
-	printf("converted to gray");
+	printf("converted to gray\n");
 	Mat matCon(image2);
 	image = image2;
+	printf("before detection\n");
 	detector.detect( image, kp_image );
-
-
+	printf("after detection\n");
 	extractor.compute( image, kp_image, des_image );
+	printf("after computation  of extraction\n");
+
+	if(des_image.empty()){
+		printf("key points from capture frame are empty\n");
+	} else {
 
 	matcher.knnMatch(des_object, des_image, matches, 2);
+	printf("after knnmatch: matches.size() is %d\n", matches.size());
 	for(int j = 0; j < min(des_image.rows-1,(int) matches.size()); j++) //THIS LOOP IS SENSITIVE TO SEGFAULTS
 	{
-		if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
-		{
+//		if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
+//		{
 			good_matches.push_back(matches[j][0]);
-			printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
-		}
+			//printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
+//		}
 	}
 
 	//Draw only "good" matches
@@ -192,6 +218,7 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	if (good_matches.size() >= 4)
 	{
 		matchFound = true;
+		printf("Found %d matched points for detectedObject %d", good_matches.size(), i );
 		for( int i = 0; i < good_matches.size(); i++ )
 		{
 			//Get the keypoints from the good matches
@@ -211,6 +238,7 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	}
 	imshow( windowName, img_matches );
 
+	}
 	return matchFound;
 }
 
@@ -218,7 +246,7 @@ int main()
 {
 
 
-	Mat object = imread( "Photo24bw.jpg", CV_LOAD_IMAGE_GRAYSCALE );
+	Mat object = imread( "photo14bw.jpg", CV_LOAD_IMAGE_GRAYSCALE );
 
 	if( !object.data )
 	{
@@ -280,6 +308,7 @@ int main()
 			for(std::vector<Symbol>::iterator it = symbolList.begin() ; it != symbolList.end(); ++it){
 				printf("Image found at x : %d y : %d , size of image is: %d, looking for matches now. \n", it->x, it->y,  it->img->imageSize);
 				match(object, it->img, i );
+				i++;
 			}
 		}
 		//

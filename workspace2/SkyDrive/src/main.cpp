@@ -115,8 +115,10 @@ void DetectAndDrawQuads(IplImage * img, IplImage * original)
 	cvReleaseImage(&temp);
 	cvReleaseMemStorage(&storage);
 }
+
 bool match(Mat object, IplImage* segmentedCapture, int i)
 {
+	printf("Size check of segmented capture: height: %d, width: %d", segmentedCapture->height, segmentedCapture->width);
 	printf("attempting to read object now\n");
 
 	bool matchFound = false;
@@ -162,9 +164,11 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	std::vector<Point2f> scene_corners(4);
 	Mat H;
 	Mat image;
-	IplImage *image2 = cvCreateImage(cvGetSize(segmentedCapture), IPL_DEPTH_8U,1);
+	IplImage *image2 = cvCreateImage(cvSize(segmentedCapture->width, segmentedCapture->height), IPL_DEPTH_8U,1);
 
 	cvCvtColor(segmentedCapture, image2, CV_BGR2GRAY);
+
+	printf("converted to gray");
 	Mat matCon(image2);
 	image = image2;
 	detector.detect( image, kp_image );
@@ -223,22 +227,22 @@ int main()
 	}
 
 
-	//Detect the keypoints using SURF Detector
-	int minHessian = 500;
-
-	SurfFeatureDetector detector(minHessian);
-	std::vector<KeyPoint> kp_object;
-
-	detector.detect( object, kp_object );
-
-	//Calculate descriptors (feature vectors)
-	SurfDescriptorExtractor extractor;
-	Mat des_object;
-
-	extractor.compute( object, kp_object, des_object );
-	printf("Number of descriptors found for initial object: %d", (int)kp_object.size());
-
-	FlannBasedMatcher matcher;
+//	//Detect the keypoints using SURF Detector
+//	int minHessian = 500;
+//
+//	SurfFeatureDetector detector(minHessian);
+//	std::vector<KeyPoint> kp_object;
+//
+//	detector.detect( object, kp_object );
+//
+//	//Calculate descriptors (feature vectors)
+//	SurfDescriptorExtractor extractor;
+//	Mat des_object;
+//
+//	extractor.compute( object, kp_object, des_object );
+//	printf("Number of descriptors found for initial object: %d", (int)kp_object.size());
+//
+//	FlannBasedMatcher matcher;
 
 	VideoCapture cap(0);
 	cap.set(CV_CAP_PROP_FRAME_WIDTH, 1280);
@@ -274,7 +278,7 @@ int main()
 
 			int i = 0;
 			for(std::vector<Symbol>::iterator it = symbolList.begin() ; it != symbolList.end(); ++it){
-				printf("Image found at x : %d y : %d , looking for matches now. \n", it->x, it->y);
+				printf("Image found at x : %d y : %d , size of image is: %d, looking for matches now. \n", it->x, it->y,  it->img->imageSize);
 				match(object, it->img, i );
 			}
 		}

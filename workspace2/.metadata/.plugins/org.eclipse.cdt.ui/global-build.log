@@ -674,3 +674,2306 @@ Invoking: Cross G++ Linker
 g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
 Finished building target: EcoCollage
  
+12:29:13 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+make: Nothing to be done for `all'.
+12:30:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:31:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:31:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:45:54 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:53:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:54:07 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:54:38 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:56:21 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:05:56 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+make: Nothing to be done for `all'.
+13:23:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:24:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:40:02 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+Building file: ../src/EcoCollage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EcoCollage.d" -MT"src/EcoCollage.d" -o "src/EcoCollage.o" "../src/EcoCollage.cpp"
+Finished building: ../src/EcoCollage.cpp
+ 
+Building target: EcoCollage
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
+Finished building target: EcoCollage
+ 
+13:40:29 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+Building file: ../src/EcoCollage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EcoCollage.d" -MT"src/EcoCollage.d" -o "src/EcoCollage.o" "../src/EcoCollage.cpp"
+Finished building: ../src/EcoCollage.cpp
+ 
+Building target: EcoCollage
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
+Finished building target: EcoCollage
+ 
+14:02:48 **** Incremental Build of configuration Debug for project EcoCollage ****
+make all 
+make: Nothing to be done for `all'.
+09:28:02 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:29:16 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:31:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:46:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:47:12 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:47:43 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:304: warning: taking address of temporary
+../src/main.cpp:305: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:50:05 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:311: warning: taking address of temporary
+../src/main.cpp:312: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:51:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:54:29 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:315: warning: taking address of temporary
+../src/main.cpp:316: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:55:43 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:315: warning: taking address of temporary
+../src/main.cpp:316: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:56:02 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:315: warning: taking address of temporary
+../src/main.cpp:316: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:57:42 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:315: warning: taking address of temporary
+../src/main.cpp:316: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:58:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:317: warning: taking address of temporary
+../src/main.cpp:318: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:01:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:317: warning: taking address of temporary
+../src/main.cpp:318: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:02:39 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:311: warning: taking address of temporary
+../src/main.cpp:312: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:03:01 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:311: warning: taking address of temporary
+../src/main.cpp:312: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:03:29 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:310: warning: taking address of temporary
+../src/main.cpp:311: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:03:59 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:310: warning: taking address of temporary
+../src/main.cpp:311: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:05:16 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:17:42 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:19:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:34:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:37:52 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:38:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:38:35 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:38:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:39:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:40:00 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:42:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:42:51 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:43:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:44:38 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:47:57 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:51:01 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:58:12 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:03:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:05:40 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:07:11 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:13:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:13:42 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:14:16 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:17:05 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:17:25 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:19:04 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:23:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:23:51 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:24:57 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:27:56 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:29:06 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:29:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:29:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:30:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:37:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:44:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+../src/main.cpp:316: warning: too many arguments for format
+../src/main.cpp:316: warning: too many arguments for format
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:46:22 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:48:55 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:54:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:55:08 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+12:05:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:10:08 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+12:19:54 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:23:27 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:30:19 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:31:22 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:31:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:32:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+13:36:16 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:01:03 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:09:26 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:25:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:25:55 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:31:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:34:02 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:35:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+14:40:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+14:40:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+14:44:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+14:52:07 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:09:16 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:10:08 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:10:25 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:11:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:11:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:12:06 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:15:03 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:15:24 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:309: warning: taking address of temporary
+../src/main.cpp:310: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:17:38 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+15:18:59 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:316: warning: taking address of temporary
+../src/main.cpp:317: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:19:30 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:317: warning: taking address of temporary
+../src/main.cpp:318: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:19:56 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:317: warning: taking address of temporary
+../src/main.cpp:318: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:20:59 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:317: warning: taking address of temporary
+../src/main.cpp:318: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:24:34 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:26:22 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:26:43 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:27:02 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+15:27:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:07:43 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:12:44 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:19:54 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:34:23 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:19:39 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:21:39 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:25:18 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:33:06 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:34:46 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:35:10 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:38:01 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:48:52 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:50:11 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:00:20 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:06:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:15:22 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+../src/main.cpp:295: error: invalid initialization of reference of type 'const cv::_InputArray&' from expression of type 'IplImage*'
+/usr/local/include/opencv2/imgproc/imgproc.hpp:661: error: in passing argument 1 of 'void cv::adaptiveThreshold(const cv::_InputArray&, const cv::_OutputArray&, double, int, int, int, double)'
+make: *** [src/main.o] Error 1
+09:19:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+../src/main.cpp:295: error: invalid initialization of reference of type 'const cv::_InputArray&' from expression of type 'IplImage*'
+/usr/local/include/opencv2/imgproc/imgproc.hpp:653: error: in passing argument 1 of 'double cv::threshold(const cv::_InputArray&, const cv::_OutputArray&, double, double, int)'
+make: *** [src/main.o] Error 1
+09:22:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+../src/main.cpp:295: error: invalid initialization of reference of type 'const cv::_InputArray&' from expression of type 'IplImage*'
+/usr/local/include/opencv2/imgproc/imgproc.hpp:653: error: in passing argument 1 of 'double cv::threshold(const cv::_InputArray&, const cv::_OutputArray&, double, double, int)'
+make: *** [src/main.o] Error 1
+09:27:19 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:203: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:203: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:219: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:219: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:220: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:285: warning: taking address of temporary
+../src/main.cpp:286: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:32:24 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:203: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:203: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:219: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:219: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:220: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:285: warning: taking address of temporary
+../src/main.cpp:286: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:38:21 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:39:46 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:44:52 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:47:15 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+../src/main.cpp:297: error: invalid initialization of reference of type 'const cv::_InputArray&' from expression of type 'IplImage*'
+/usr/local/include/opencv2/imgproc/imgproc.hpp:661: error: in passing argument 1 of 'void cv::adaptiveThreshold(const cv::_InputArray&, const cv::_OutputArray&, double, int, int, int, double)'
+make: *** [src/main.o] Error 1
+09:49:11 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:49:41 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:51:05 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:51:44 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:52:04 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:53:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:54:10 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:54:45 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:55:14 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+09:56:01 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:246: error: a function-definition is not allowed here before '{' token
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp:309: error: expected `}' at end of input
+make: *** [src/main.o] Error 1
+09:56:34 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:57:18 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:57:41 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:58:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+09:58:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:00:25 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:04:33 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:14:55 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:15:47 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:17:32 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:23:33 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:24:26 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:26:17 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:26:42 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:27:46 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:27:57 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:30:13 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:30:36 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:30:50 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:32:28 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:37:24 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:43:42 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:43:56 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:44:52 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:45:04 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:47:09 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:50:04 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+10:56:19 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+10:59:53 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:04:01 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:04:51 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:06:24 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:09:20 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:11:51 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:13:04 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:14:26 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:15:21 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:15:49 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:16:35 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:18:36 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:19:48 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:27:43 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:35:30 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:35:40 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:36:31 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:37:46 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:40:39 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:40:46 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:51:18 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:196: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:205: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:221: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+../src/main.cpp:222: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp:187: warning: unused variable 'image2'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:287: warning: taking address of temporary
+../src/main.cpp:288: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+11:51:58 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.
+11:53:38 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+make: Nothing to be done for `all'.

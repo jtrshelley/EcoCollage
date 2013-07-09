@@ -49,7 +49,9 @@ IplImage * GetThresholdedImage(IplImage * img)
 {
 	//Convert the image into an HSV image
 	IplImage * imgHSV = cvCreateImage(cvGetSize(img), 8, 3);
-	cvCvtColor(img, imgHSV, CV_BGR2HSV);
+
+		cvCvtColor(img, imgHSV, CV_BGR2HSV);
+
 
 	//New image that will hold the thresholded image
 	IplImage * imgThreshed = cvCreateImage(cvGetSize(img), 8, 1);
@@ -109,7 +111,7 @@ void DetectAndDrawQuads(IplImage * img, IplImage * original)
 			cvDestroyWindow(windowName);
 			//printf("x:  %d, y:  %d, w:  %d, h:  %d ", x, y, w, h);
 
-			cvSetImageROI(original, cvRect(x-2,y-2, w+4, h+4));
+			cvSetImageROI(original, cvRect(x-10,y-10, w+20, h+20));
 			IplImage * detectedObject = cvCreateImage(cvGetSize(original),original->depth, original->nChannels);
 			cvCopy(original, detectedObject, NULL);
 			symbolList.push_back(Symbol(detectedObject, x, y));
@@ -135,9 +137,7 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	printf("Size check of segmented capture: height: %d, width: %d\n", segmentedCapture->height, segmentedCapture->width);
 	printf("attempting to read object now\n");
 
-
-
-	bool matchFound = false;
+ 	bool matchFound = false;
 	if( !object.data )
 	{
 		std::cout<< "Error reading object " << std::endl;
@@ -186,14 +186,14 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 	printf("creating image to store it in");
 	IplImage *image2 = cvCreateImage(cvSize(segmentedCapture->width, segmentedCapture->height), IPL_DEPTH_8U,1);
 	printf("about to convert to gray\n");
-	cvCvtColor(segmentedCapture, image2, CV_BGR2GRAY);
-
-	printf("converted to gray\n");
-	Mat matCon(image2);
-	image = image2;
+//	cvCvtColor(segmentedCapture, image2, CV_BGR2GRAY);
+//
+//	printf("converted to gray\n");
+	Mat matCon(segmentedCapture);
+	image = segmentedCapture;
 	printf("before detection\n");
 	detector.detect( image, kp_image );
-	printf("after detection\n");
+	printf("after detection, number of descriptors for detected object: %d\n", kp_image.size());
 	extractor.compute( image, kp_image, des_image );
 	printf("after computation  of extraction\n");
 
@@ -201,42 +201,42 @@ bool match(Mat object, IplImage* segmentedCapture, int i)
 		printf("key points from capture frame are empty\n");
 	} else {
 
-	matcher.knnMatch(des_object, des_image, matches, 2);
-	printf("after knnmatch: matches.size() is %d\n", matches.size());
-	for(int j = 0; j < min(des_image.rows-1,(int) matches.size()); j++) //THIS LOOP IS SENSITIVE TO SEGFAULTS
-	{
-//		if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
-//		{
-			good_matches.push_back(matches[j][0]);
-			//printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
-//		}
-	}
-
-	//Draw only "good" matches
-	drawMatches( object, kp_object, image, kp_image, good_matches, img_matches, Scalar::all(-1), Scalar::all(-1), vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
-
-	if (good_matches.size() >= 4)
-	{
-		matchFound = true;
-		printf("Found %d matched points for detectedObject %d", good_matches.size(), i );
-		for( int i = 0; i < good_matches.size(); i++ )
+		matcher.knnMatch(des_object, des_image, matches, 2);
+		printf("after knnmatch: matches.size() is %d\n", matches.size());
+		for(int j = 0; j < min(des_image.rows-1,(int) matches.size()); j++) //THIS LOOP IS SENSITIVE TO SEGFAULTS
 		{
-			//Get the keypoints from the good matches
-			obj.push_back( kp_object[ good_matches[i].queryIdx ].pt );
-			scene.push_back( kp_image[ good_matches[i].trainIdx ].pt );
+					if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
+					{
+			good_matches.push_back(matches[j][0]);
+			printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
+					}
 		}
 
-		H = findHomography( obj, scene, CV_RANSAC );
+		//Draw only "good" matches
+		drawMatches( object, kp_object, image, kp_image, good_matches, img_matches, Scalar::all(-1), Scalar::all(-1), vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
 
-		perspectiveTransform( obj_corners, scene_corners, H);
+		if (good_matches.size() >= 4)
+		{
+			matchFound = true;
+			printf("Found %d matched points for detectedObject %d", good_matches.size(), i );
+			for( int i = 0; i < good_matches.size(); i++ )
+			{
+				//Get the keypoints from the good matches
+				obj.push_back( kp_object[ good_matches[i].queryIdx ].pt );
+				scene.push_back( kp_image[ good_matches[i].trainIdx ].pt );
+			}
 
-		//Draw lines between the corners (the mapped object in the scene image )
-		line( img_matches, scene_corners[0] + Point2f( object.cols, 0), scene_corners[1] + Point2f( object.cols, 0), Scalar(0, 255, 0), 4 );
-		line( img_matches, scene_corners[1] + Point2f( object.cols, 0), scene_corners[2] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-		line( img_matches, scene_corners[2] + Point2f( object.cols, 0), scene_corners[3] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-		line( img_matches, scene_corners[3] + Point2f( object.cols, 0), scene_corners[0] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-	}
-	imshow( windowName, img_matches );
+			H = findHomography( obj, scene, CV_RANSAC );
+
+			perspectiveTransform( obj_corners, scene_corners, H);
+
+			//Draw lines between the corners (the mapped object in the scene image )
+			line( img_matches, scene_corners[0] + Point2f( object.cols, 0), scene_corners[1] + Point2f( object.cols, 0), Scalar(0, 255, 0), 4 );
+			line( img_matches, scene_corners[1] + Point2f( object.cols, 0), scene_corners[2] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
+			line( img_matches, scene_corners[2] + Point2f( object.cols, 0), scene_corners[3] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
+			line( img_matches, scene_corners[3] + Point2f( object.cols, 0), scene_corners[0] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
+		}
+		imshow( windowName, img_matches );
 
 	}
 	return matchFound;
@@ -255,26 +255,11 @@ int main()
 	}
 
 
-//	//Detect the keypoints using SURF Detector
-//	int minHessian = 500;
-//
-//	SurfFeatureDetector detector(minHessian);
-//	std::vector<KeyPoint> kp_object;
-//
-//	detector.detect( object, kp_object );
-//
-//	//Calculate descriptors (feature vectors)
-//	SurfDescriptorExtractor extractor;
-//	Mat des_object;
-//
-//	extractor.compute( object, kp_object, des_object );
-//	printf("Number of descriptors found for initial object: %d", (int)kp_object.size());
-//
-//	FlannBasedMatcher matcher;
 
-	VideoCapture cap(0);
-	cap.set(CV_CAP_PROP_FRAME_WIDTH, 1280);
-	cap.set(CV_CAP_PROP_FRAME_HEIGHT, 1024);
+	VideoCapture cap(1);
+	cap.set(CV_CAP_PROP_FRAME_WIDTH, 1020);
+	cap.set(CV_CAP_PROP_FRAME_HEIGHT, 675);
+
 
 	//namedWindow("Good Matches");
 	namedWindow("Capture");
@@ -288,10 +273,7 @@ int main()
 	obj_corners[3] = cvPoint( 0, object.rows );
 
 	char key = 'a';
-	//	int framecount = 0;
-	//	Mat frozenframe[5];
 
-	//	int state = 1;
 	while (key != 27)
 	{
 		int c = cvWaitKey(100);
@@ -299,129 +281,29 @@ int main()
 		cap >> frame;
 		imshow("Capture", frame);
 
+
 		if( c == 32){
 			printf("spacebar pressed");
 			IplImage * imgThresh = GetThresholdedImage(cvCloneImage(&(IplImage)frame));
 			DetectAndDrawQuads(imgThresh, cvCloneImage(&(IplImage)frame));
 
-			int i = 0;
+			int i = 1;
 			for(std::vector<Symbol>::iterator it = symbolList.begin() ; it != symbolList.end(); ++it){
-				printf("Image found at x : %d y : %d , size of image is: %d, looking for matches now. \n", it->x, it->y,  it->img->imageSize);
-				match(object, it->img, i );
+				printf("Image %d found at x : %d y : %d , size of image is: %d, looking for matches now. \n", i, it->x, it->y,  it->img->imageSize);
+				IplImage *doubleSized = cvCreateImage(cvSize((int) (it->img->width * 7.5 ), (int) (it->img->height * 7.5)), it->img->depth, it->img->nChannels);
+				//increase size of read image
+				cvResize(it->img, doubleSized);
+				IplImage *grayScale = cvCreateImage( cvSize(doubleSized->width, doubleSized->height), doubleSized->depth, 1);
+				cvCvtColor(doubleSized, grayScale, CV_BGR2GRAY);
+				threshold(Mat(grayScale), Mat(grayScale), 175, 255,  THRESH_BINARY);
+				if(match(object, grayScale, i )){
+					printf("\nMatch found at x : %d y : %d. \nHeight of match:  %d\n", it->x, it->y, it->img->height);
+					waitKey(3000);
+				}
 				i++;
 			}
 		}
-		//
-		//		//first five frames are preserved so that we can use them once
-		//		//we get past them
-		//		if (framecount < 5)
-		//		{
-		//			frozenframe[4] = frame.clone();
-		//			framecount++;
-		//			continue;
-		//		}
-		//
-		//		if(state % 2 == 0){
-		//			frame = frozenframe[4].clone();
-		//		}
-		//
-		//		Mat des_image, img_matches;
-		//		std::vector<KeyPoint> kp_image;
-		//		std::vector<vector<DMatch > > matches;
-		//		std::vector<DMatch > good_matches;
-		//		std::vector<Point2f> obj;
-		//		std::vector<Point2f> scene;
-		//		std::vector<Point2f> scene_corners(4);
-		//		Mat H;
-		//		Mat image;
-		//
-		//
-		//		cvtColor(frame, image, CV_RGB2GRAY);
-		//
-		//
-		//		if(state %2  == 0){
-		//			for(int i = 0; i < 5 ; i++){
-		//				cvtColor(frozenframe[i], image, CV_RGB2GRAY);
-		//				detector.detect( image, kp_image );
-		//				extractor.compute( image, kp_image, des_image );
-		//
-		//				matcher.knnMatch(des_object, des_image, matches, 2);
-		//				for(int j = 0; j < min(des_image.rows-1,(int) matches.size()); j++) //THIS LOOP IS SENSITIVE TO SEGFAULTS
-		//				{
-		//					if((matches[j][0].distance < 0.6*(matches[j][1].distance)) && ((int) matches[j].size()<=2 && (int) matches[j].size()>0))
-		//					{
-		//						good_matches.push_back(matches[j][0]);
-		//						printf("Outer loop is on: %d, Number of matches is: %d\n", i, (int)good_matches.size());
-		//					}
-		//				}
-		//			}
-		//			//Draw only "good" matches
-		//			drawMatches( object, kp_object, image, kp_image, good_matches, img_matches, Scalar::all(-1), Scalar::all(-1), vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
-		//
-		//			if (good_matches.size() >= 4)
-		//			{
-		//				for( int i = 0; i < good_matches.size(); i++ )
-		//				{
-		//					//Get the keypoints from the good matches
-		//					obj.push_back( kp_object[ good_matches[i].queryIdx ].pt );
-		//					scene.push_back( kp_image[ good_matches[i].trainIdx ].pt );
-		//				}
-		//
-		//				H = findHomography( obj, scene, CV_RANSAC );
-		//
-		//				perspectiveTransform( obj_corners, scene_corners, H);
-		//
-		//				//Draw lines between the corners (the mapped object in the scene image )
-		//				line( img_matches, scene_corners[0] + Point2f( object.cols, 0), scene_corners[1] + Point2f( object.cols, 0), Scalar(0, 255, 0), 4 );
-		//				line( img_matches, scene_corners[1] + Point2f( object.cols, 0), scene_corners[2] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-		//				line( img_matches, scene_corners[2] + Point2f( object.cols, 0), scene_corners[3] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-		//				line( img_matches, scene_corners[3] + Point2f( object.cols, 0), scene_corners[0] + Point2f( object.cols, 0), Scalar( 0, 255, 0), 4 );
-		//			}
-		//			imshow( "Good Matches", img_matches );
-		//		}
-		//		//Show detected matches
-		//		imshow( "Capture", frame );
-		//
-		//
-		//		key = waitKey(1);
-		//		//Wait 50mS
-		//		//this populates the array of frozenframes such that we can keep track of the last
-		//		//five frames that we saw. adds the newest frame to the last index, after moving the other
-		//		//ones up
-		//		frozenframe[0] = frozenframe[1].clone();
-		//		frozenframe[1] = frozenframe[2].clone();
-		//		frozenframe[2] = frozenframe[3].clone();
-		//		frozenframe[3] = frozenframe[4].clone();
-		//		frozenframe[4] = frame.clone();
-		//
-		//		CvMoments *moments = (CvMoments*)malloc(sizeof(CvMoments));
-		//		cvMoments(imgThresh, moments, 1);
-		//
-		//		//If 'ESC' is pressed, break the loop, if c is pressed, change states
-		//		//if 'd' is pressed, print the coordinates to the screen
-		//		int x = cvWaitKey(10);
-		//		if((char)c ==100)
-		//		{
-		//
-		//			// The actual moment values
-		//			double moment10 = cvGetSpatialMoment(moments, 1, 0);
-		//			double moment01 = cvGetSpatialMoment(moments, 0, 1);
-		//			double area = cvGetCentralMoment(moments, 0, 0);
-		//
-		//			// Holding the last and current ball positions
-		//			static int posX = 0;
-		//			static int posY = 0;
-		//
-		//			posX = moment10/area;
-		//			posY = moment01/area;
-		//			// Print it out for debugging purposes
-		//			printf("position (%d,%d)\n", posX, posY);
-		//
-		//		}
-		//		if ((char) c==99){
-		//			state++;
-		//			printf("c pressed. state : %d \n",state);
-		//		}
+
 		if((char)c==27 ) break;
 	}
 	return 0;

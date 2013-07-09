@@ -1,15 +1,6 @@
-10:55:56 **** Incremental Build of configuration Debug for project EcoCollage ****
+14:02:48 **** Incremental Build of configuration Debug for project EcoCollage ****
 make all 
-Building file: ../src/EcoCollage.cpp
-Invoking: Cross G++ Compiler
-g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EcoCollage.d" -MT"src/EcoCollage.d" -o "src/EcoCollage.o" "../src/EcoCollage.cpp"
-Finished building: ../src/EcoCollage.cpp
- 
-Building target: EcoCollage
-Invoking: Cross G++ Linker
-g++ -L/usr/local/lib -o "EcoCollage"  ./src/EcoCollage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
-Finished building target: EcoCollage
- 
+make: Nothing to be done for `all'.
 
-10:55:59 Build Finished (took 2s.414ms)
+14:02:49 Build Finished (took 864ms)
 

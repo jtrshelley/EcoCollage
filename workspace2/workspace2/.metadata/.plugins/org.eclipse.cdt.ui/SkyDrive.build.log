@@ -1,0 +1,20 @@
+09:02:19 **** Incremental Build of configuration Debug for project SkyDrive ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'bool match(cv::Mat, IplImage*, int)':
+../src/main.cpp:195: warning: comparison between signed and unsigned integer expressions
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:276: warning: taking address of temporary
+../src/main.cpp:277: warning: taking address of temporary
+Finished building: ../src/main.cpp
+ 
+Building target: SkyDrive
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "SkyDrive"  ./src/Symbol.o ./src/main.o   -lopencv_ml -lopencv_nonfree -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -lopencv_core -lopencv_imgproc -lopencv_highgui
+Finished building target: SkyDrive
+ 
+
+09:02:20 Build Finished (took 1s.530ms)
+

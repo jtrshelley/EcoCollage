@@ -290,6 +290,7 @@ int main()
 	obj_corners[2] = cvPoint( object.cols, object.rows );
 	obj_corners[3] = cvPoint( 0, object.rows );
 
+	//initializing key
 	char key = 'a';
 
 	while (key != 27)
